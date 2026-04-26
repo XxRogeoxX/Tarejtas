@@ -18,9 +18,8 @@ body {
 /* CONTENEDOR SUPERIOR */
 .top {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column; /* Esto es lo que pone el botón arriba */
+  align-items: center;    /* Esto centra el botón y los inputs */
   gap: 15px;
   width: 100%;
 }
